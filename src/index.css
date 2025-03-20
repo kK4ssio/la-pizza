@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --brand-color: #ffbd48;
+  --dark-10: #2e2e2e;
+  --dark-20: #fefbf4;
+  --dark-30: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 37.5rem;
+  background: url("./assets/bg.png") center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 596px;
+  height: 394px;
+  background-color: transparent;
+}
+
+.products-container {
+  background: url("./assets/bga.png") center/cover no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 46.625rem;
+}
+
+.tittle {
+  padding-top: 9rem;
+  padding: 3.125rem;
+
+  font-size: 2.5rem;
+  font-weight: 600;
+}
