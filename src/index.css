@@ -44,3 +44,81 @@
   font-size: 2.5rem;
   font-weight: 600;
 }
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 2.4375rem;
+}
+
+.about{
+  width: 100%;
+  max-width: 76rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+  gap: 8.5rem;
+
+}
+
+.about img{
+  width: 30.5rem;
+  height: 31.25rem;
+}
+
+.description{
+  width: 100%;
+  max-width: 592px;
+
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.d-title{
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--dark-10);
+}
+
+.d-title span:first-child{
+  color: #ffbd48;
+}
+
+.d-title span:nth-child(2){
+  color: #ff3536;
+}
+
+.d-title span:last-child{
+  color: #60bb28
+}
+
+.history{
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+button{
+  width: max-content;
+  outline: none;
+  border: none;
+  background-color: var(--brand-color);
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 0.75rem 2.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+  .logo{
+    width: 13.5rem;
+    height: 8.9375rem;
+  }
+}
