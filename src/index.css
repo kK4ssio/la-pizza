@@ -147,4 +147,43 @@ button{
     padding-top: 3rem;
     
   }
+
+}
+
+
+
+  @media screen and (max-width: 1024px) {
+    .logo{
+      width: 25rem;
+      height: 48rem;
+    }
+  
+    .container{
+      height: 12.75rem;
+      width: 48rem;
+    }
+  
+    .products{
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(2,1fr);
+     grid-row-gap: 4rem;
+     grid-column-gap: 2rem;
+  
+    }
+    .about{
+      flex-direction: column;
+  
+    }
+    .about img {
+      width: 44rem;
+      height: 25rem;
+    }
+    .description{
+      width: 44rem;
+    }
+  
+    .tittle{
+      padding-top: 3rem;
+      
+    }
 }
